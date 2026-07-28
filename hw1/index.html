@@ -60,6 +60,13 @@
             font-size: 20px;
             text-decoration: underline;
         }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -103,9 +110,11 @@
 
     <hr>
 
-    <!-- رابط صفحة iframe -->
-    <a href="iframe.html">iframe.html</a>
+    <!-- عرض صفحة list.html داخل iframe -->
+    <h3>صفحة القائمة المدمجة:</h3>
+    <iframe src="list.html">
+        متصفحك لا يدعم عرض الـ iframe.
+    </iframe>
 
 </body>
 </html>
-
